@@ -1,0 +1,36 @@
+﻿<?php
+require_once ('connect.php');
+require_once ('core.php');
+require_once ('function.php');
+$mysqli->query("UPDATE `".$prefix."sait` SET `hosts` = '0', `hits` = '0', `in` = '0', `out` = '0'");
+$mysqli->query("UPDATE `".$prefix."stats` SET `hosts` = '0', `hits` = '0', `in` = '0', `out` = '0'");
+$mysqli->query("TRUNCATE TABLE `".$prefix."browsers`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."complaint`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."compression`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."country`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."days`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."hours`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."month`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."online`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."operators`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."saitsOnline`");
+$mysqli->query("TRUNCATE TABLE `".$prefix."shows`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."browsers`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."cat`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."complaint`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."compression`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."country`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."days`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."hours`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."images`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."ip`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."month`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."news`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."news_comments`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."online`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."operators`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."sait`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."saitsOnline`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."shows`");
+$mysqli->query("OPTIMIZE TABLE `".$prefix."users`");
+?>
