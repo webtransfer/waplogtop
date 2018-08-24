@@ -10296,41 +10296,7 @@ CREATE TABLE `top33_users` (
   `pageNews` int(2) NOT NULL,
   `pageNewsc` int(2) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=56 DEFAULT CHARSET=utf8;
-
-INSERT INTO top33_users VALUES("1","1386540062","0","bekzodinfo","6fed7f368b003006aecbf18e88f5afeb","","1456418822","infobekzod@gmail.com","2","wap","2","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("31","1456571407","0","bimif","a76f3075d15776e49467a826fd9a9afc","","0","web-money11@bk.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("30","1456554782","0","Abrorbek","ed2539fe892d2c52c42a440354e8e3d5","","0","aka_@bk.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("29","1456553343","0","sirdosh","fc3f318fba8b3c1502bece62a27712df","","0","Hasanchik.messi@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("28","1456550543","0","Janob","8fdefe6612d53ffd742f2f70657ce7e4","","0","raj-7-95@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("24","1456483385","0","Jasur","5c42cf88b628f7dfaa130acb419d1f90","","0","jasur.hacker@gmail.com","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("25","1456487636","0","Bekzod","b3549829d6106ee9e35acee75313d62c","","0","gruzfon@bk.ru","1","wap","0","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("26","1456488856","0","BestMaker","e1a4115eda490eb8b802aa0929c62dbe","","0","jasur0604@gmail.com","1","wap","3","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("27","1456512693","0","shoxbek96","424e4e3928810bb8931c6ca0f7719906","","0","shoxbek96@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("32","1456599097","0","virus","0845e44dde48293608a7a90e7fd208ec","","0","ramaelo92@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("33","1456638508","0","ABBOSBEK","8b962702b4750de280077fa3fdca6d64","","0","2126851@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("34","1456665455","0","Bekislom","1fbe2a71b49bfa5f2321ee21880b89de","","0","foydali@bk.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("35","1456680324","0","sarvarbek","08fa95334e8aec7cd16e6bb7e06b04d1","","0","chiroy.ru@bk.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("36","1456690499","0","badboy","e10adc3949ba59abbe56e057f20f883e","","0","aaxmadnazarov@list.ru","1","wap","0","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("37","1456691595","0","alibi","3f75e0a7c4101e25f4f13f09206b7467","","0","waplib@inbox.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("38","1456691844","0","Quyosh","437599f1ea3514f8969f161a6606ce18","","0","xayollar@list.ru","1","wap","0","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("39","1456716518","0","ModernBOY","89dfdfe6a445b94adcfd4af128b7d758","","0","Master_sulton@bk.ru","1","wap","2","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("40","1456730257","0","Infobekzod","b3549829d6106ee9e35acee75313d62c","KbGMNeHppcOjHObFojhEKFhKCNHpNkLMNIBLLLMcLohDHm","1456730668","bek_official@bk.ru","1","wap","0","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("41","1456749746","0","Uzbekish","e89665440f13ca84ff3b789120e7b8d6","","0","Azizbek920@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("42","1456819195","0","chimildiq","c42ded6bd69241b1909390e40ced32d3","","0","d.j.nozim@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("43","1456843382","0","duu8ozz","165edac3fe9ffd1e91b303be54ef09d3","","0","akow_070@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("44","1456977267","0","Jeweler","b76670b0d38e4409137c03bb4f5462d9","","0","Yusuf1741@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("45","1457065584","0","Galim-5","1663fffc975ab9dd40b3301edf1bda7e","","0","tpadtpa.@mail.ru","1","wap","0","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("46","1457067633","0","warmas","310066b5738364db1167c5cc70d1e647","","0","jamdar98@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("47","1457100441","0","goran-2","ed728527947c14402fb6b555fa4bd461","","0","mpatjda.@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("48","1457109643","0","duhovka-5","510488d5dcafb8540dd3282fcc623cbb","","0","mtapatp.@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("49","1457254290","0","Ramzbek","96710d5cfc7a94d00a50fb13c324fa4e","","0","ramz.master@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("50","1457275298","0","shoxruh","21dba81f2dd1ec6fb4ec660ab7b2ac0b","","0","shoxruh.rustamaliyev@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("51","1457432481","0","kali-5","edf3e7d15456f2067cabc3ec03af8b61","","0","wpjagpjd.@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("52","1457465142","0","Gagarap","65249a60e116db0305efc5ee042f28b4","","0","Sardor99.99@mail.ru","1","wap","1","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("53","1457467623","0","Abdulaev_baxram","d931062e826e1d6b56e345b0af418ac1","","0","Baxa@termez.ter","1","wap","0","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("54","1457590993","0","sexboy","56073829ad8c911886285eb923c45351","","0","okey.1997@list.ru","1","wap","0","10","10","10","10","10","10");
-INSERT INTO top33_users VALUES("55","1457615469","0","DjDima","aa689cc509af6cef3d64aeacf41dfd56","","0","xorazmcity@bk.ru","1","wap","1","10","10","10","10","10","10");
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 
 
